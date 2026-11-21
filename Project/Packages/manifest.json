@@ -23,5 +23,12 @@
   "testables": [
     "com.unity.ml-agents.tests",
     "com.unity.inputsystem"
-  ]
+  ],
+  "dependencies1": [
+    "com.unity.inputsystem"
+  ],
+  "_comment": "Database settings for the production environment",
+  "host": "example://example.com",
+  "port": 5432,
+  "//note": "Ensure port 5432 is open on the firewall"
 }
